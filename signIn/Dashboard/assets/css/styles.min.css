@@ -1,0 +1,51 @@
+hr {
+    height: 2px
+}
+
+#logo {
+    font-weight: 800
+}
+
+@media (min-width:1200px) {
+    .form {
+        margin-top: 7% !important
+    }
+
+    .companyInformation {
+        font-size: 30px !important
+    }
+
+    .border.rounded-0.form-control.aboutInternship {
+        height: 150% !important
+    }
+
+    .col-md-8.companyForm {
+        margin-left: 58% !important
+    }
+}
+
+@media (min-width:300px) {
+    .form {
+        margin-top: 15%
+    }
+
+    .col-md-8.companyForm {
+        overflow: hidden;
+        margin-left: -10%
+    }
+
+    .inputWidth {
+        width: 69% !important
+    }
+}
+
+@media (min-width:1200px) {
+    .inputWidth {
+        width: 100% !important
+    }
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

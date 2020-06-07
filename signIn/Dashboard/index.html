@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>companyProfile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+    
+    <!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.6/dist/js/uikit-icons.min.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <div class="container"><a class="navbar-brand" id="logo" href="#">Blood</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse"
+                    id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                                                <li class="nav-item" role="presentation"><a class="nav-link" href="posts/index.html">Newsfeed</a></li>
+
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="../../index.html">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="#">FAQ</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="SearchBase/index.html">Search</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <form class="form" style="width: 549px;margin-left: 50px;">
+                        <div class="col-md-8 companyForm" style="width: 512px;padding-right: -1px;padding-left: 0px;">
+                            <h1 class="companyInformation" style="font-size: 20px;"><i class="icon-user" style="margin-right: 8px;color: #00baff;"></i>Your information</h1>
+                            <hr>
+                            <div class="form-group">
+                                
+                                <input class="border  rounded-0 form-control inputWidth" type="text" name="name" style="margin-bottom: 15px;"id = "companyName" placeholder="Name">
+                                
+                                <input class="border rounded-0 form-control inputWidth" type="text" name="home" id = "address"  placeholder="Address"
+                                    style="margin-bottom: 15px;">
+                                 <input class="border rounded-0 form-control inputWidth" type="text" name="home" id = "pincode"  placeholder="pincode"
+                                    style="margin-bottom: 15px;">
+                                
+                                
+                             
+                                
+                                   <input class="border rounded-0 form-control inputWidth" type="text" name="home" placeholder="email"  id = "email" style="margin-bottom: 15px;">
+                                
+                            <label class="uk-form-label" for="form-stacked-select">Select Blood Group</label>
+            
+        <select id="BloodGroup">
+    <option value="O+">O+</option>
+    <option value="O-">O-</option>
+    <option value="A+">A+</option>
+    <option value="A-">A-</option>
+    <option value="B+">B+</option>
+    <option value="B-">B-</option>
+    <option value="AB+">AB+</option>
+    <option value="AB-">AB-</option>
+
+</select>
+                                
+                              
+                                
+                                
+                                
+                      
+                                
+                                
+                                <input id= "aboutInternship" class="border rounded-0 form-control aboutInternship inputWidth"
+                                        type="text" name="home" placeholder="Tell us a bit about you" style="margin-bottom: 15px;">
+                                
+                                
+                                
+                                <input class="border rounded form-control inputWidth" type = "button" name="save" style="margin-top: 15px;background-color: #00baff;color: rgb(255,255,255);"
+                                        value="Save" onclick = "uploadData()">
+                                
+                                <input class="border rounded form-control inputWidth" type = "button" name="save" style="margin-top: 15px;background-color: red;color: rgb(255,255,255);"
+                                        value="Sign-out" onclick = "signout()">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+     <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <!--Add JQUERY to the app-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src = "assets/js/script.js"></script></script>
+       <!-- Customerly Integration Code -->
+<script>
+    window.customerlySettings = {
+        app_id: "20961c10"
+    };
+    !function(){function e(){var e=t.createElement("script");
+    e.type="text/javascript",e.async=!0,
+    e.src="https://widget.customerly.io/widget/20961c10";
+    var r=t.getElementsByTagName("script")[0];r.parentNode.insertBefore(e,r)}
+    var r=window,t=document,n=function(){n.c(arguments)};
+    r.customerly_queue=[],n.c=function(e){r.customerly_queue.push(e)},
+    r.customerly=n,r.attachEvent?r.attachEvent("onload",e):r.addEventListener("load",e,!1)}();
+</script>
+<!-- End Google Tag Manager (noscript) -->
+</body>
+
+</html>

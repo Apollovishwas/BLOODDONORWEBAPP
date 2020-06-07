@@ -1,0 +1,25 @@
+[debug] [2020-02-12T01:22:25.889Z] ----------------------------------------------------------------------
+[debug] [2020-02-12T01:22:25.892Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2020-02-12T01:22:25.892Z] CLI Version:   7.5.0
+[debug] [2020-02-12T01:22:25.893Z] Platform:      darwin
+[debug] [2020-02-12T01:22:25.893Z] Node Version:  v12.14.1
+[debug] [2020-02-12T01:22:25.894Z] Time:          Wed Feb 12 2020 06:52:25 GMT+0530 (India Standard Time)
+[debug] [2020-02-12T01:22:25.894Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-02-12T01:22:25.905Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-12T01:22:25.905Z] > authorizing via signed-in user
+[debug] [2020-02-12T01:22:25.906Z] [iam] checking project fundbirth for permissions ["firebase.projects.get"]
+[debug] [2020-02-12T01:22:25.909Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fundbirth:testIamPermissions  
+
+[debug] [2020-02-12T01:22:27.803Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-12T01:22:27.805Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fundbirth  
+ 
+[debug] [2020-02-12T01:22:28.441Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/apollovishwas/Downloads/Web_Projects/bStudio/companyDesign/CompanyDashboard'...
+[info] 
+[debug] [2020-02-12T01:22:28.444Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fundbirth/webApps/-/config  
+ 
+[debug] [2020-02-12T01:22:29.876Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000

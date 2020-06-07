@@ -1,0 +1,337 @@
+.footer-clean {
+    padding: 50px 0;
+    background-color: #fff;
+    color: #4b4c4d
+}
+
+.footer-clean h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 16px
+}
+
+.footer-clean ul {
+    padding: 0;
+    list-style: none;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 0
+}
+
+.footer-clean ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: .8
+}
+
+.footer-clean ul a:hover {
+    opacity: 1
+}
+
+.footer-clean .item.social {
+    text-align: right
+}
+
+@media (max-width:768px) {
+    .footer-clean .item.social {
+        text-align: center
+    }
+}
+
+.footer-clean .item.social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-top: 22px;
+    color: inherit;
+    opacity: .75
+}
+
+.footer-clean .item.social > a:hover {
+    opacity: .9
+}
+
+@media (max-width:991px) {
+    .footer-clean .item.social > a {
+        margin-top: 40px
+    }
+}
+
+@media (max-width:767px) {
+    .footer-clean .item {
+        text-align: center;
+        padding-bottom: 20px
+    }
+
+    .footer-clean .item.social > a {
+        margin-top: 10px
+    }
+}
+
+.footer-clean .copyright {
+    margin-top: 14px;
+    margin-bottom: 0;
+    font-size: 13px;
+    opacity: .6
+}
+
+.login-clean {
+    padding: 80px 0
+}
+
+.login-clean form {
+    max-width: 320px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .1)
+}
+
+.login-clean .illustration {
+    text-align: center;
+    padding: 0 0 20px;
+    font-size: 100px;
+    color: #f4476b
+}
+
+.login-clean form .form-control {
+    background: #f7f9fc;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0;
+    box-shadow: none;
+    outline: 0;
+    color: inherit;
+    text-indent: 8px;
+    height: 42px
+}
+
+.login-clean form .btn-primary {
+    background: #f4476b;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+    outline: 0 !important
+}
+
+.login-clean form .btn-primary:active,
+.login-clean form .btn-primary:hover {
+    background: #eb3b60
+}
+
+.login-clean form .btn-primary:active {
+    transform: translateY(1px)
+}
+
+.login-clean form .forgot {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: .9;
+    text-decoration: none
+}
+
+.login-clean form .forgot:active,
+.login-clean form .forgot:hover {
+    opacity: 1;
+    text-decoration: none
+}
+
+.login-clean {
+    height: 100vh
+}
+
+#ConnectingMinds {
+    fallback for old browsers */background: -webkit-linear-gradient(to right, #FFF, #ECE9E6);
+    Chrome 10-25,
+    Safari 5.1-6 */background: linear-gradient(to right, #FFF, #ECE9E6);
+    text-align: center
+}
+
+.form {
+    border-radius: 15px;
+    margin-top: 5% !important
+}
+
+@media (min-width:300px) {
+    .connectingMinds {
+        font-size: 35px !important;
+        font-weight: 700
+    }
+
+    .signInImage {
+        margin-left: -10%;
+        width: 125%
+    }
+}
+
+#logo {
+    font-weight: 800
+}
+
+@media (min-width:1200px) {
+    .connectingMinds {
+        margin-top: -5%
+    }
+
+    .footer-clean {
+        margin-top: -10%
+    }
+
+    .signInImage {
+        margin-left: -10%;
+        width: 125%
+    }
+}
+
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #fff;
+    color: #4b4c4d
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0
+}
+
+.footer-basic li {
+    padding: 0 10px
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: .8
+}
+
+.footer-basic ul a:hover {
+    opacity: 1
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px
+}
+
+.footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: .75
+}
+
+.footer-basic .social > a:hover {
+    opacity: .9
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0
+}
+
+#logo {
+    font-weight: 800
+}
+
+@media (min-width:300px) {
+    .theQuote {
+        margin-top: 10% !important;
+        margin-left: 5%;
+        text-align: center;
+        font-size: 63px;
+        font-weight: 800;
+        width: 90%
+    }
+
+    .theblock {
+        margin-top: 9%
+    }
+}
+
+@media (min-width:1200px) {
+    .theQuote {
+        text-align: left;
+        font-size: 59px;
+        font-weight: 800;
+        width: 72%
+    }
+
+    .theblock {
+        margin-top: 9%
+    }
+}
+
+.btn.btn-primary.thePaymentButton,
+.theParagraph {
+    margin-top: 7%
+}
+
+@media (min-width:300px) {
+    .theImage {
+        display: none;
+        width: 100%
+    }
+
+    .btn.btn-primary.thePaymentButton {
+        margin-top: 26%;
+        margin-left: 31% !important
+    }
+}
+
+@media (min-width:1200px) {
+    .theImage {
+        display: block;
+        width: 101%
+    }
+}
+
+.theParagraph {
+    width: 53%;
+    color: #737070
+}
+
+@media (min-width:300px) {
+    .btn.btn-primary.thePaymentButton {
+        margin-top: 24%;
+        margin-left: 25%
+    }
+}
+
+@media (min-width:1200px) {
+    .btn.btn-primary.thePaymentButton {
+        margin-top: 11%;
+        margin-left: 5% !important
+    }
+
+    .footer-basic {}
+}
