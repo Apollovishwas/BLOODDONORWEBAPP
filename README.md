@@ -229,7 +229,6 @@ and future directions&quot;, Advances in Computing Communications
 and Informatics (ICACCI) 2017 International Conference on, pp.
 1665- 1670, 2017.
 
-## Authors
 
 First Author – Vishwas C, BE-Computer Science, KGISL
 Institute of Technology and apollovishwas@gmail.com.
